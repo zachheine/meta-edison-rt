@@ -34,7 +34,7 @@ Using "..." to represent the install directory of the Edison source:
     
 The layer needs to added to the bblayers.conf file which is at:
 
-    .../edison-erc/build/conf/bblayers.conf
+    .../edison-src/build/conf/bblayers.conf
     
 Add a line to the layers so that the BBLAYERS variable looks like this:
 
