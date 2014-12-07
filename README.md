@@ -22,6 +22,7 @@ Specific additions are:
 
     IMAGE_INSTALL += "nano"
     IMAGE_INSTALL += "packagegroup-core-qt4e"
+    IMAGE_INSTALL += "cmake"
     
 pulseaudio doesn't seem to be set up correctly at this point. That's a TODO.
 

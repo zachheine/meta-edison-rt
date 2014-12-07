@@ -16,4 +16,5 @@ IMAGE_INSTALL += "alsa-defaults"
 
 IMAGE_INSTALL += "nano"
 IMAGE_INSTALL += "packagegroup-core-qt4e"
+IMAGE_INSTALL += "cmake"
 
