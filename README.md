@@ -53,19 +53,9 @@ Add a line to the layers so that the BBLAYERS variable looks like this:
         
  The result will be too big to fit in the standard 512Mb rootfs. This must be increased.
  
- To do this, a couple of files need to be edited. First off, edit the file:
-
-    .../edison-src/device-software/meta-edison-distro/recipes-bsp/u-boot/files/edison.env
-    
-In that file will be something like:
-
-    name=rootfs,size=512MiB
-    
-Change this to be:
-
-    name=rootfs,size=1024MiB
-    
-and save the file. Then edit the file:
+ To do this, a couple of files need to be edited.
+ 
+ Edit the file:
 
     .../edison-src/device-software/meta-edison-distro/recipes-core/images/edison-image.bb
     
